@@ -26,6 +26,7 @@ const NumberSelect = ({ setSelectedValue, selectedValue, error, setError }) => {
             <p>Select Number</p>
         </NumberContainer>
     )
+    
 }
 
 export default NumberSelect
@@ -67,4 +68,5 @@ color:${(props) => props.isSelected ? "white" : "black"};
 
 
 `
+
 
