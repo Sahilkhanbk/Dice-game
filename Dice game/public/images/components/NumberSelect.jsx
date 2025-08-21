@@ -9,6 +9,7 @@ const NumberSelect = ({ setSelectedValue, selectedValue, error, setError }) => {
         setSelectedValue(val)
         setError("")
     }
+    
     return (
         <NumberContainer>
             <p className="errorc">{error}</p>
@@ -68,5 +69,6 @@ color:${(props) => props.isSelected ? "white" : "black"};
 
 
 `
+
 
 
