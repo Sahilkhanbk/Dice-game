@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components"
 
-
 const NumberSelect = ({ setSelectedValue, selectedValue, error, setError }) => {
 
     const arrayNumber = [1, 2, 3, 4, 5, 6];
@@ -66,5 +65,6 @@ font-weight:700px;
 
 background:${(props) => props.isSelected ? "black" : "white"};
 color:${(props) => props.isSelected ? "white" : "black"};
+
 
 `
